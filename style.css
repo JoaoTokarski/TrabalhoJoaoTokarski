@@ -1,0 +1,66 @@
+[21:49, 22/11/2024] Tokarski: <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalidades do Esporte</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo" class="logo">
+        <h1>Personalidades do Esporte</h1>
+    </header>
+    
+    <main>
+        <div class="banner">
+            <img src="images/banner.jpg" alt="Banner Esporte">
+        </div>
+        <section class="content">
+            <h2>Atletas Icônicos</h2>
+            <p>O esporte é repleto de personalidades que deixaram sua marca na história. Entre eles, Pelé, Michael Jordan e Serena Williams se destacam por suas conquistas e impacto no mundo es…
+[21:49, 22/11/2024] Tokarski: body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Cor de fundo */
+}
+
+header {
+    background-color: #4CAF50; /* Cor do cabeçalho */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 100px; /* Ajuste o tamanho do logo conforme necessário */
+}
+
+.banner {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.banner img {
+    width: 100%; /* A imagem do banner ocupa toda a largura do contêiner */
+    height: auto;
+}
+
+.content {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333; /* Cor do rodapé */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
